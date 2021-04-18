@@ -1,0 +1,68 @@
+.img {
+    width: 100%;
+    height: 569px;
+}
+
+/*提醒部分*/
+.infoTop {
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    background-color: #ff7600;
+    left: 60px;
+    top: 110px;
+    padding-top: 5px;
+}
+
+.infoTop > i {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.infoDown {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: #ff7600;
+    left: 60px;
+    top: 150px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.infoDown > div:hover {
+    transform: scale(1.05, 1.05);
+}
+
+.infoDown:hover {
+    box-shadow: 0px 0px 5px #000;
+}
+
+/*主体表单部分*/
+.main {
+    width: 1200px;
+    height: 500px;
+    /*background-color: #FFFFFF;*/
+    position: absolute;
+    left: 180px;
+    top: 100px;
+    text-align: center;
+}
+/*分页按钮改色*/
+.pagination .active a{
+    background-color: #ff7600 !important;
+    border-color: #ff7600 !important;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    bottom: 45px;
+}

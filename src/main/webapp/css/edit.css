@@ -1,0 +1,45 @@
+.background {
+    width: 100%;
+    height: 1016px;
+    margin-top: -280px;
+    overflow: hidden;
+}
+
+/*用户头像*/
+.userPicture {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 65px;
+    margin-left: -35px;
+}
+
+.row {
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(5px);
+    width: 550px;
+    height: 650px;
+    position: absolute;
+    top: 60px;
+    left: 505px;
+    padding: 0 10px 30px 70px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+body {
+    position: relative;
+}
+.NouserPic{
+    visibility: hidden;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    bottom: -15px;
+}

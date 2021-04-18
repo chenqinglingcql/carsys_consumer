@@ -1,0 +1,35 @@
+.img {
+    height: 300px;
+    margin-top: 45px;
+}
+.container{
+    width:1520px;
+    /*background-color: red;*/
+}
+
+.table th{
+    text-align: center;
+}
+
+span{
+    line-height: 25px;
+    font-size: 15px;
+    color: #9F9F9F;
+    font-family: 新宋体;
+}
+
+p,p>span{
+    color: whitesmoke;
+}
+p>span>img{
+    width:35px;
+    height: 35px;
+}
+
+
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    bottom: -105px;
+}

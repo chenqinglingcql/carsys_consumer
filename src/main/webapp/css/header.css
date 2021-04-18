@@ -1,0 +1,46 @@
+.header1 {
+    width: 1536px;
+    margin: 0 auto;
+    background-color: #313132;
+    z-index: 200;
+}
+
+.layui-nav {
+    background-color: #313132 !important;
+}
+
+.layui-nav-item {
+    height: 45px;
+}
+
+.layui-nav-item > a {
+    line-height: 45px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff !important;
+}
+
+.layui-row {
+    width: 1300px;
+    background-color: #313132;
+}
+
+.layui-col-md9 {
+    width: 400px;
+    margin-left: -115px;
+}
+
+.layui-col-md3 {
+    width: 180px;
+    margin-left: 100px;
+}
+
+.layui-nav-child > dd {
+    padding: 5px 5px 15px 5px;
+    height: 30px;
+}
+
+.layui-nav-child > dd > a {
+    font-size: 16px;
+}
+
